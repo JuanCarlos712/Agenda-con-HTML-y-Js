@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+
+    <header class="nav">
+        <h1>Lista de tareas</h1>
+    </header>
+    
+    <main class="container">
+        <!-- Sección de formulario -->
+        <section class="form-section">
+            <form class="form">
+                <h2>Agregar Tarea</h2>
+                <div>
+                    <input class="form_input" type="text" id="tarea" placeholder="Tarea">
+                    <input class="form_input" type="text" id="descripcion" placeholder="Descripción">
+                    <button class="form_button" type="submit">Guardar Tarea</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Sección de tareas -->
+        <section class="tasks-section">
+            <h2>Mis Tareas</h2>
+            <div class="hero">
+                <p class="hero-blank">No hay tareas disponibles</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script> <!-- Conexión con JavaScript -->
+</body>
+</html>
